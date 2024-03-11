@@ -1,0 +1,39 @@
+.card-horizontal {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.card-horizontal li {
+    margin-right: 20px;
+}
+
+li{
+    border: solid 2px;
+    border-color: gray;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 268.6px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.icon.i-html img{
+    height: auto;
+    display: block;
+}
+
+.icon.i-css img{
+    height: auto;
+    display: block;
+    margin-left: -294px;
+}
+
+.icon.i-js img{
+    height: auto;
+    display: block;
+    margin-left: -585px;
+}
