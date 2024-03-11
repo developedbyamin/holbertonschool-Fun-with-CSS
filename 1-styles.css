@@ -1,0 +1,22 @@
+a {
+    position: relative;
+    text-decoration: none; /* Remove the default underline */
+    color: #8f1b2a; /* Set the link color */
+}
+
+  /* Create an underline using ::before pseudo-element */
+a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #8f1b2a;
+    transition: width 0.4s ease-in; /* Set the transition for the width */
+}
+
+  /* Define the hover effect to increase the width */
+a:hover::before {
+    width: 100%;
+}
